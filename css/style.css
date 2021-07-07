@@ -597,7 +597,7 @@ a {
 }
 
 .portfolio__works {
-  margin-bottom: 111px;
+  margin-bottom: 100px;
 }
 
 .portfolio__button .button__item {
@@ -673,7 +673,6 @@ a {
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
   padding: 0 10px;
-  margin-bottom: 64px;
 }
 
 .apps__elem .elem__body {
@@ -696,6 +695,10 @@ a {
 
 .apps__elem .elem__pic {
   max-width: 100%;
+}
+
+.apps__elem:first-child, .apps__elem:nth-child(2) {
+  margin-bottom: 64px;
 }
 
 .apps__elem .name__text {
@@ -768,7 +771,6 @@ a {
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
   padding: 0 25px;
-  margin-bottom: 147px;
 }
 
 .say__item .item__body {
@@ -846,6 +848,10 @@ a {
   font-size: 18px;
   line-height: 26px;
   color: #ffdd99;
+}
+
+.say__item:nth-child(2), .say__item:first-child {
+  margin-bottom: 147px;
 }
 
 .get {

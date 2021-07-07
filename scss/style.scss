@@ -319,9 +319,6 @@ a {
         &__desc {
             margin-bottom: 10px;
         }
-
-        &__socials {
-        }
     }
 }
 
@@ -492,7 +489,7 @@ a {
     }
 
     &__works {
-        margin-bottom: 111px;
+        margin-bottom: 100px;
     }
 
     &__button {
@@ -557,8 +554,6 @@ a {
     &__elem {
         flex: 1 1 50%;
         padding: 0 10px;
-        margin-bottom: 64px;
-
         .elem__body {
             display: flex;
             flex-direction: column;
@@ -570,6 +565,10 @@ a {
         }
         .elem__pic {
             max-width: 100%;
+        }
+        &:first-child,
+        &:nth-child(2) {
+            margin-bottom: 64px;
         }
         .name__text {
             font-size: 18px;
@@ -625,7 +624,6 @@ a {
     &__item {
         flex: 0 0 50%;
         padding: 0 25px;
-        margin-bottom: 147px;
         .item__body {
             display: flex;
             flex-direction: row;
@@ -671,6 +669,10 @@ a {
                 line-height: 26px;
                 color: #ffdd99;
             }
+        }
+        &:nth-child(2),
+        &:first-child {
+            margin-bottom: 147px;
         }
     }
 }
