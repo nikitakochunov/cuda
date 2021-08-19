@@ -12,7 +12,7 @@ function itemActive(menuSelector, menuItemsSelector, activeClass) {
 
   menu.addEventListener('click', (event) => {
     console.log(event.target);
-    if ((event.target.tagName === 'A') && (!(event.target.closest('li').classList.contains(activeClass)))) {
+    if ((event.target.closest('li')) && (!(event.target.closest('li').classList.contains(activeClass)))) {
       console.log(1);
       menuItems.forEach((item) => {
         console.log(2)
