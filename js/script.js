@@ -23,3 +23,4 @@ itemActive('.menu__list', '.menu__item', 'menu__item--active')
 
 itemActive('.categories__list', '.categories__item', 'categories__item--active')
 
+itemActive('.footer__socials', '.footer__item', 'footer__item--active')
